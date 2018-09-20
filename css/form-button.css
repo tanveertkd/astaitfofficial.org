@@ -1,0 +1,72 @@
+input[type="submit"],
+input[type="button"],
+.button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	background-color: #3ba666;
+	border-radius: 4px;
+	border: 0;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.85em;
+	line-height: 2.8em;
+	padding: 0 2em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	float: left;
+	margin-left: 20%;
+	margin-bottom: 35px;
+	margin-top: 15px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.button:hover {
+	background-color: #42b972;
+}
+input[type="submit"]:active,
+input[type="button"]:active,
+.button:active {
+	background-color: #34935a;
+}
+.logo img {
+	float: right;
+	vertical-align: middle;
+	overflow: hidden;
+	max-width: 100% auto;
+	height: auto;
+	margin-right: 5%;
+}
+/*-----Media-----*/
+@media only screen and (min-width: 320px) and (max-width: 720px)
+{
+	input[type="submit"],
+	input[type="button"],
+	.button {
+		margin-left: 40%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

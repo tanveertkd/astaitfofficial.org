@@ -1,0 +1,317 @@
+hr {
+  border: 1px solid #dcdcdc;
+  margin-top: 25px;
+}
+.navbar-default {
+  background-color: #474747;
+  margin-bottom: 0;
+  border: none;
+}
+.navbar-brand,
+.navbar-nav li a {
+  height: 65px;
+  line-height: 65px;
+  padding: 0 15px;
+  margin-left: 1px;
+  background-color: #474747;
+  font-size: 1.22em;
+  color: #fff;
+  border-right: 1px solid #393939;
+  -webkit-box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.1);
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: #535252;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #535252;
+}
+.navbar-default .navbar-toggle {
+  margin-top: 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #3d3d3d;
+}
+.btn {
+  height: 65px;
+  line-height: 65px;
+  padding: 0 15px;
+  margin-left: 1px;
+  font-size: 1.22em;
+}
+.dropdown-menu {
+  background-color: #286090;
+  text-align: center;
+}
+/* Social Icons */
+li.facebook a {
+  width: 80px;
+  background-color: #3b5998 !important;
+  color: #fff !important;
+  font-size: 1.8em;
+  text-align: center;
+  box-shadow: none;
+  border-right: none;
+}
+li.instagram a {
+  width: 80px;
+  background-color: #ff9900 !important;
+  color: #fff !important;
+  font-size: 1.8em;
+  text-align: center;
+  box-shadow: none;
+  border-right: none;
+}
+li.instagram a:hover,
+li.facebook a:hover {
+  opacity: 0.7;
+}
+
+/* Header */
+header {
+  height: 700px;
+  text-align: center;
+  background-color: #6d6d6d;
+  background: url(../img/banner.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+header h2 {
+  margin-top: 50px;
+  font-size: 3.5em;
+  color: #fff;
+}
+header p {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+/*Main Content*/
+.main-content {
+  padding: 60px 100px;
+}
+.main-content h3 {
+  padding: 10px 30px;
+  margin-bottom: 40px;
+  display: inline-block;
+  font-size: 1.5em;
+  color: #ff3333;
+  border: 3px solid #ff3333;
+}
+.main-content h4 {
+  color: #3f3f3f;
+  font-size: 1.7em;
+}
+.main-content .about-tkd p {
+  color: #666666;
+  font-size: 1.23em;
+}
+/* Affiliations */
+.main-content .post h4{
+  margin-top: 25px;
+  font-size: 1.4em;
+  color: #333333;
+  text-transform: uppercase;
+}
+.main-content .post p {
+  font-size: 1.1em;
+  color: #666666;
+  line-height: 2em;
+}
+.banner2 {
+  background-image: url("../img/banner2.png");
+  min-height: 600px;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  padding-top: 90px;
+  color: #fff;
+  background-color: #262626;
+}
+.pull-left {
+  color: #fff;
+  font-size: 1.5em;
+}
+.pull-right {
+  color: #acacac;
+}
+.pull-right a {
+  color: #fff;
+}
+
+/*Animation*/
+#navbar {
+  -webkit-animation-delay: .8s;
+  -moz-animation-delay: .8s;
+  -o-animation-delay: .8s;
+  -ms-animation-delay: .8s;
+}
+header {
+  -webkit-animation-delay: .9s;
+  -moz-animation-delay: .9s;
+  -o-animation-delay: .9s;
+  -ms-animation-delay: .9s;
+}
+
+/*Form*/
+form  {
+  margin-top: 40px;
+}
+.contact .row {
+  padding-top: 20px;
+}
+input {
+  height: 50px;
+  width: 100%;
+  color: #b9b9b9;
+  border: 3px solid #b9b9b9;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 1.25em;
+}
+input:focus {
+  border: 2px solid #4dac71;
+  box-shadow: 0 0 5px 1px #4dac71;
+}
+input:hover {
+  border: 2px solid #4dac71;
+  box-shadow: 0 0 5px 1px #4dac71;
+}
+.message {
+  height: 220px;
+}
+.send {
+  width: 180px;
+  background: #fff;
+}
+.send:hover {
+  color: #4dac71;
+  border-color: #4dac71;
+}
+.side {
+  font-size: 1.04em;
+  margin-top: 40px;
+}
+.side i {
+  position: absolute;
+  left: 0;
+  color: ##5f5959;
+}
+.side p {
+  padding-left: 15px;
+  color: ##5f5959;
+}
+.sub {
+  width: auto;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+.about-tkd .abt h4 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 1.5em;
+  /*
+  color: #ff3333;
+  border: 2px solid #ff3333;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(255,51,51,1);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(255,51,51,1);
+  box-shadow: 1px 1px 5px 0px rgba(255,51,51,1);
+  */
+}
+.core-header {
+  text-align: center;
+  margin-top: 40px;
+}
+.profile-picture {
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 4px solid #669933;
+  -webkit-box-shadow: 5px 1px 5px -2px rgba(150,89,181,0.54);
+  -moz-box-shadow: 5px 1px 5px -2px rgba(150,89,181,0.54);
+  box-shadow: 5px 1px 5px -2px rgba(150,89,181,0.54);
+}
+.core {
+  padding: 40px;
+}
+
+/*Featured Video*/
+
+iframe {
+  margin-top: 35px;
+}
+.feature {
+  margin-top: 95px;
+}
+
+
+
+
+/*********** Media Queries ***********/
+
+@media(max-width: 768px) {
+  .navbar-default .navbar-nav>li>a {
+    width: 100%;
+    border-bottom: 1px solid #3d3d3d;
+    text-align: center;
+  }
+  p {
+    line-height: 1.5em;
+  }
+  header {
+    height: auto;
+    padding: 0px;
+  }
+  header h2 {
+    /*margin-top: 50px;
+    font-size: 2.5em;
+    color: #fff;*/
+    visibility: hidden;
+  }
+  header p {
+    /*font-size: 1.2em;
+    color: #fff;
+    padding: 0 20px;*/
+    visibility: hidden;
+  }
+  .navbar-brand {
+    font-size: 1em;
+  }
+  .side i {
+    padding-left: 15px;
+  }
+  .side p {
+    padding-left: 40px;
+  }
+  .btn {
+    display: block;
+  }
+  .main-content .post h4{
+    margin-top: 35px;
+  }
+  .main-content .post p {
+    margin-top: 35px;
+ }
+  .main-content .post {
+    margin-top: 30px;
+  }
+}
